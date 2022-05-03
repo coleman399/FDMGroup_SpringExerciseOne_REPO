@@ -71,7 +71,6 @@
     </dependency>
   </dependencies>
   <build>
-    <sourceDirectory>Java Projects\FDMGroup_SpringExerciseOne_Repo\exercise_one\src</sourceDirectory>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
