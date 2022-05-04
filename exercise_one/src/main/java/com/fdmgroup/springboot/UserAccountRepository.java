@@ -23,7 +23,7 @@ public class UserAccountRepository {
     }
 
     public void removeAccount(Account account) {
-        userAccounts.remove(account.getAccountNumber(), account);
+        userAccounts.values().remove(account);
     }
 
     public Map<User, Account> getUserAccounts() {

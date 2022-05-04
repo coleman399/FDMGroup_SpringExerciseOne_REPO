@@ -16,7 +16,8 @@ public class Account {
         this.accountNumber = accountNumber;
     }
 
-    public void setAccountNumber(Long result) {
+    public void setAccountNumber(Long accountNumber) {
+        this.accountNumber = accountNumber;
     }
 
     public Long getAccountNumber() {
